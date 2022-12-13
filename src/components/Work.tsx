@@ -23,7 +23,7 @@ function Work() {
                     <div className="data">
                         <div className="content">
                             <span className="author">TimothieMT</span>
-                            <h2 className="title"><a href="https://thunderous-begonia-62b263.netlify.app/"
+                            <h2 className="title"><a href="https://weather-app-zeta-dun.vercel.app/"
                                                      target='_blank'>Web und Softwareentwicklung</a></h2>
                             <article className="text"> Erstellen und Erarbeiten von Softwareanwendungen mit Java,
                                 Python, Javascript/TypeScript, HTML und CSS. Implementierungen von Datenbanken zum Beispiel mit MongoDB und SQL.
