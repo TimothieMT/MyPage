@@ -5,8 +5,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import {Link} from "@mui/material";
-import {Status} from "@googlemaps/react-wrapper";
-import Home from "./Home";
 
 function Footer() {
 
@@ -22,10 +20,6 @@ function Footer() {
             </Typography>
         );
     }
-
-    const render = (status: Status) => {
-        return <h1>{status}</h1>;
-    };
 
     return (
             <Box

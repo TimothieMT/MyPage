@@ -18,7 +18,7 @@ function App() {
 
             <div className='wrapperContent'>
                 <Container maxWidth="xl">
-                {/*Home - About Me - Work - Gallery - LogIn*/}
+
                 <Navbar setAnchorElNav={setAnchorElNav}
                         setAnchorElUser={setAnchorElUser} anchorElNav={anchorElNav} anchorElUser={anchorElUser}/>
 
@@ -28,8 +28,6 @@ function App() {
 
                 <Work/>
 
-
-                {/*Google Maps(location) - Formular{Name/Email/Text} - Social Media*/}
                 <Footer/>
             </Container>
             </div>
@@ -39,19 +37,3 @@ function App() {
 }
 
 export default App
-
-
-/*
-* ToDo
-*
-* - design: color = dark theme[dark grey, grey, white] - one-pager - font[robot sans-serif] - responsible focus on iphone 6 and greater
-* - API: MUI - typescript - react - sass
-* - header[animation and code snippets integrated / home,about,work, gallery?]
-* - main[section, image 1/3 , text 2/3]
-* - footer[google map, formular, social media and copyright]
-*
-*
-* Function:
-* -Login and booking a date with me to talk about you project
-* -display data in chart [bitcoin, gas, etherium etc..]
-* */
