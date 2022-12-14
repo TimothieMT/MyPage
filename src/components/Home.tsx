@@ -39,17 +39,20 @@ const person1: any = new Person()
             }}>
 
                 <div className='wrapperTitle'>
-                    <h1 className='firstTitle'>Hello</h1>
-                    <h2 className='secondTitle'> I´m Tim</h2>
+
+                    <div className='wrapperHead'>
+                        <h1 className='firstTitle'>Hello</h1>
+                        <h2 className='secondTitle'> I´m Tim</h2>
+                        <h2 className='secondTitle underTitle'>Fullstack Developer</h2>
+                        <a href='https://www.linkedin.com/in/tim-tolk-2091a7258/' target='_blank'>
+                            <button className='headerBtn'>Besuche mich auf LinkedIn</button>
+                        </a>
+                    </div>
 
                     <img src={avatar} alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
                     <CodeBlock codeString={codeString}/>
 
-                    <h2 className='secondTitle underTitle'>Fullstack Developer</h2>
-                    <a href='https://www.linkedin.com/in/tim-tolk-2091a7258/' target='_blank'>
-                        <button className='headerBtn'>Besuche mich auf LinkedIn</button>
-                    </a>
                 </div>
 
 
@@ -77,7 +80,8 @@ const person1: any = new Person()
                                 <h3 className='subExp'>Lernphase Programmierung</h3>
                                 <article>
                                     Da ich ein starkes Interesse an der Softwareentwicklung habe und der Bereich der
-                                    Sicherheit und Anwendungsprogrammierung eine große Rolle spielt. Habe ich mich intensiv mit Python beschäftigt.
+                                    Sicherheit und Anwendungsprogrammierung eine große Rolle spielt. Habe ich mich
+                                    intensiv mit Python beschäftigt.
                                 </article>
                             </div>
                         </Item>

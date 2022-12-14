@@ -49,11 +49,12 @@ function Footer() {
                         padding: '10px 0 0 0'
                     }}>
 
-                        <ul>
-                            <li className='iconFooter'><a href='https://github.com/TimothieMT' target={'_blank'}><GitHubIcon />/Github.com</a></li>
-                            <li className='iconFooter'><a href='https://www.linkedin.com/in/tim-tolk-2091a7258/' target={'_blank'}><LinkedInIcon />/linkedin.com</a></li>
-                            <li className='iconFooter'><a href='mailto:ttolk89@gmail.com?subject' target={'_blank'}><AlternateEmailIcon />/ttolk89@gmail.com</a></li>
-                        </ul>
+
+                            <a className='iconFooter' href='https://github.com/TimothieMT' target={'_blank'}><GitHubIcon />/Github.com</a>
+                            <a className='iconFooter' href='https://www.linkedin.com/in/tim-tolk-2091a7258/' target={'_blank'}><LinkedInIcon />/linkedin.com</a>
+                            <a className='iconFooter' href='mailto:ttolk89@gmail.com?subject' target={'_blank'}><AlternateEmailIcon />/ttolk89@gmail.com</a>
+
+
                     </Typography>
 
                     <Copyright/>
