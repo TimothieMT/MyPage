@@ -2,7 +2,7 @@ import {Grid, Paper, styled} from "@mui/material";
 import Box from "@mui/material/Box";
 import '../App.scss'
 import {CodeBlock} from "./SyntaxHighlighter";
-import avatar from '../../images/avatar.png'
+import avatar from '../images/avatar.png'
 
 
 const Item = styled(Paper)(({theme}) => ({
@@ -49,6 +49,7 @@ const person1: any = new Person()
                         </a>
                     </div>
 
+           
                     <img src={avatar} alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
                     <CodeBlock codeString={codeString}/>
