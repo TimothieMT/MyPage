@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import '../App.scss'
 import {CodeBlock} from "./SyntaxHighlighter";
 import React, {useState} from 'react'
+import avatar from '../../images/avatar.png'
 
 
 const Item = styled(Paper)(({theme}) => ({
@@ -44,7 +45,7 @@ const person1: any = new Person()
                     <h1 className='firstTitle'>Hello</h1>
                     <h2 className='secondTitle'> I´m Tim</h2>
 
-                    <img src='images/avatar.png' alt='Mann mit Brille, kurzen Haaren und Bart'></img>
+                    <img src={avatar} alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
                     <CodeBlock codeString={codeString}/>
 
