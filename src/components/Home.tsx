@@ -40,7 +40,7 @@ const person1: any = new Person()
 
                 <div className='wrapperTitle'>
                     <h1 className='firstTitle'>Hello</h1>
-                    <h2 className='secondTitle'> I´m Tim</h2>
+                    <h2 className='secondTitle'> I´m Tim 22</h2>
 
                     <img src={avatar} alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
