@@ -2,7 +2,6 @@ import {Grid, Paper, styled} from "@mui/material";
 import Box from "@mui/material/Box";
 import '../App.scss'
 import {CodeBlock} from "./SyntaxHighlighter";
-import React, {useState} from 'react'
 import avatar from '../../images/avatar.png'
 
 
@@ -14,8 +13,6 @@ const Item = styled(Paper)(({theme}) => ({
 }));
 
 function Home() {
-
-    const [isOpen, setIsOpen] = useState(false)
 
 
     const codeString = `
