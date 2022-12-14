@@ -44,7 +44,7 @@ const person1: any = new Person()
                     <h1 className='firstTitle'>Hello</h1>
                     <h2 className='secondTitle'> I´m Tim</h2>
 
-                    <img src='/Users/timtolk/Desktop/MyPage/images/avatar.png' alt='Mann mit Brille, kurzen Haaren und Bart'></img>
+                    <img src='images/avatar.png' alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
                     <CodeBlock codeString={codeString}/>
 
