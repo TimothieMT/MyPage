@@ -19,8 +19,8 @@ function App() {
             <div className='wrapperContent'>
                 <Container maxWidth="xl">
 
-                    <Navbar setAnchorElNav={setAnchorElNav}
-                            setAnchorElUser={setAnchorElUser} anchorElNav={anchorElNav} anchorElUser={anchorElUser}/>
+                    {/*<Navbar setAnchorElNav={setAnchorElNav}*/}
+                    {/*        setAnchorElUser={setAnchorElUser} anchorElNav={anchorElNav} anchorElUser={anchorElUser}/>*/}
 
                     <Home/>
 

@@ -63,6 +63,13 @@ sans-serif;
       border: 1px solid #034378;
     }
 
+    .wrapperHead{
+      display: inline-flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
     .secondTitle {
       text-align: center;
     }
@@ -173,12 +180,13 @@ sans-serif;
 
     .wrapperTitle {
       display: inline-flex;
-      flex-direction: column;
+      flex-direction: row;
       flex-wrap: wrap;
       height: auto;
       width: 100%;
       margin-top: 160px;
       align-items: center;
+      justify-content: space-evenly;
     }
 
     .secondBox {
@@ -446,8 +454,10 @@ sans-serif;
 
     /*-------FOOTER-------*/
 
-    .iconFooter a {
-      display: flex;
+
+
+    .iconFooter  {
+      display: inline-flex;
       flex-direction: row;
       flex-wrap: nowrap;
       margin: 10px 16px 20px 0;
