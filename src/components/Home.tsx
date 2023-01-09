@@ -2,6 +2,7 @@ import {Grid, Paper, styled} from "@mui/material";
 import Box from "@mui/material/Box";
 import '../App.scss'
 import avatar from '../images/avatar.png'
+import * as React from "react";
 
 
 const Item = styled(Paper)(({theme}) => ({
@@ -39,6 +40,9 @@ function Home() {
 
 
                 </div>
+
+
+                <div className='break'></div>
 
                 <p className='numberOfYear'>#16</p>
                 <p className='years'>Years</p>
