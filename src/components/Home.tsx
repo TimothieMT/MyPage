@@ -1,7 +1,6 @@
 import {Grid, Paper, styled} from "@mui/material";
 import Box from "@mui/material/Box";
 import '../App.scss'
-import {CodeBlock} from "./SyntaxHighlighter";
 import avatar from '../images/avatar.png'
 
 
@@ -14,21 +13,6 @@ const Item = styled(Paper)(({theme}) => ({
 
 function Home() {
 
-
-    const codeString = `
-//Introduce yourself
-class YourSelf {
-name: string = 'Tim'
-stadt: string = 'Berlin'
-fähigkeiten: [ ] = ['typescript', 'html', 'css', 
-'express.js', 'node.js', 'react', 'javascript', 
-'python', 'java', 'mongodb', 'lua', 'wordpress']
-}
-
-const person1: any = new Person()
-`
-
-
     return (
 
         <div className={'Startseite'}>
@@ -40,6 +24,7 @@ const person1: any = new Person()
 
                 <div className='wrapperTitle'>
 
+
                     <div className='wrapperHead'>
                         <h1 className='firstTitle'>Hello</h1>
                         <h2 className='secondTitle'> I´m Tim</h2>
@@ -49,13 +34,11 @@ const person1: any = new Person()
                         </a>
                     </div>
 
-           
+
                     <img src={avatar} alt='Mann mit Brille, kurzen Haaren und Bart'></img>
 
-                    <CodeBlock codeString={codeString}/>
 
                 </div>
-
 
                 <p className='numberOfYear'>#16</p>
                 <p className='years'>Years</p>
