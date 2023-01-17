@@ -61,6 +61,7 @@ sans-serif;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid #034378;
+      margin: 20px 0 0 0;
     }
 
     .wrapperHead{
@@ -137,7 +138,7 @@ sans-serif;
 
     .subWork {
       color: #52BCE0;
-      padding: 15px 0 100px 0;
+      padding: 15px 0 40px 0;
       font-size: 20px;
       font-weight: 100;
     }
@@ -257,6 +258,20 @@ sans-serif;
           font-weight: 700;
           font-family: 'Open Sans', sans-serif;
           transform: translate(-50%, 0);
+        }
+      }
+
+      .wrapper4 {
+        min-height: 540px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 5px;
+        border: 1px solid #034378;
+
+        &:hover {
+          .data {
+            transform: translateY(0);
+          }
         }
       }
 
@@ -452,6 +467,22 @@ sans-serif;
       }
     }
 
+    #work4{
+        .wrapper4 {
+            background: url('/public/images/sweetstack.png') center / cover no-repeat;
+
+            &:hover {
+            .menu-content {
+                span {
+                transform: translate(-50%, -10px);
+                opacity: 1;
+                }
+            }
+            }
+        }
+    }
+
+
 
     /*-------FOOTER-------*/
 
@@ -495,12 +526,15 @@ sans-serif;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 50px;
       }
       .card {
-        width: 30%;
-        margin: 0;
+        width: 32%;
+        margin: 20px 10px 0 0;
+      }
+      #work4{
+        width: 100%;
       }
     }
 

@@ -13,6 +13,24 @@ function Work() {
                     lassen. </h2>
             </div>
 
+            <div id={'work4'} className="card">
+                <div className="wrapper4">
+                    <div className="header">
+                        <div className="date">
+                            <h3>Command Line Interface</h3>
+                        </div>
+                    </div>
+                    <div className="data">
+                        <div className="content">
+                            <span className="author">TimothieMT</span>
+                            <h2 className="title"><a href="https://www.npmjs.com/package/sweetstack" target='_blank'>SweetStack</a></h2>
+                            <article className="text">SweetStack ist eine CLI(Command Line Interface) um automatisch React, Vue und Angular Seiten zu erstellen. </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div className="work1 card">
                 <div className="wrapper1">
                     <div className="header">
@@ -62,7 +80,7 @@ function Work() {
                         <div className="content">
                             <span className="author">TimothieMT</span>
                             <h2 className="title"><a href="https://github.com/TimothieMT" target='_blank'>Internet
-                                Sicherheit und Suchmaschinenoptimierung</a></h2>
+                                Sicherheit und SEO</a></h2>
                             <article className="text"> Die Sichtbarkeit Ihrer Unternehmenswebsite und ihrer Inhalte für Benutzer einer Websuchmaschine zu erhöhen </article>
                         </div>
                     </div>
