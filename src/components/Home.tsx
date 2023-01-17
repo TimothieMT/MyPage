@@ -27,9 +27,9 @@ function Home() {
 
 
                     <div className='wrapperHead'>
-                        <h1 className='firstTitle'>Hello</h1>
-                        <h2 className='secondTitle'> I´m Tim</h2>
-                        <h2 className='secondTitle underTitle'>Fullstack Developer</h2>
+                        <h1 className='firstTitle'>Hallo</h1>
+                        <h2 className='secondTitle'>Ich bin Tim</h2>
+                        <h2 className='secondTitle underTitle'>Webentwickler</h2>
                         <a href='https://www.linkedin.com/in/tim-tolk-2091a7258/' target='_blank'>
                             <button className='headerBtn'>Besuche mich auf LinkedIn</button>
                         </a>
@@ -45,7 +45,7 @@ function Home() {
                 <div className='break'></div>
 
                 <p className='numberOfYear'>#16</p>
-                <p className='years'>Years</p>
+                <p className='years'>Jahre Arbeitserfahrung</p>
 
                 <Grid container spacing={3}>
                     <Grid item xs>
