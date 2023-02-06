@@ -1,90 +1,26 @@
 import '../App.scss'
+import * as React from "react";
+import Card from "../components/card.tsx";
 
 
 function Work() {
+
+    const cards = [
+        {title: 'Card 1', text: 'Text for card 1'},
+        {title: 'Card 2', text: 'Text for card 2'},
+        {title: 'Card 3', text: 'Text for card 3'},
+    ];
+
     return (
 
-        <div id='Arbeiten' className='wrapperWork'>
-            <div>
-                <h1 className='mainExp'>#Neueste Arbeiten</h1>
-                <h2 className='subWork'>Flexibilität sowie das Sammeln von Erfahrung und Wissen sind Aspekte, die in
-                    der digitalen Branche unabdingbar sind, um dem ständigen Wandel stand
-                    halten zu können, deshalb freue ich mich darauf meine Stärken in Ihr Team einfließen zu
-                    lassen. </h2>
-            </div>
+        <div id='Arbeiten' className='myWork'>
 
-            <div id={'work4'} className="card">
-                <div className="wrapper4">
-                    <div className="header">
-                        <div className="date">
-                            <h3>Command Line Interface</h3>
-                        </div>
-                    </div>
-                    <div className="data">
-                        <div className="content">
-                            <span className="author">TimothieMT</span>
-                            <h2 className="title"><a href="https://www.npmjs.com/package/sweetstack" target='_blank'>SweetStack</a></h2>
-                            <article className="text">SweetStack ist eine CLI(Command Line Interface) um automatisch React, Vue und Angular Seiten zu erstellen. </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p>Meine Projekte</p>
 
-
-            <div className="work1 card">
-                <div className="wrapper1">
-                    <div className="header">
-                        <div className="date">
-                            <h3>Weather APP</h3>
-                        </div>
-                    </div>
-                    <div className="data">
-                        <div className="content">
-                            <span className="author">TimothieMT</span>
-                            <h2 className="title"><a href="https://weather-app-zeta-dun.vercel.app/"
-                                                     target='_blank'>Web und Softwareentwicklung</a></h2>
-                            <article className="text"> Erstellen und Erarbeiten von Softwareanwendungen mit Java,
-                                Python, Javascript/TypeScript, HTML und CSS. Implementierungen von Datenbanken zum Beispiel mit MongoDB und SQL.
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="work2 card">
-                <div className="wrapper2">
-                    <div className="header">
-                        <div className="date">
-                            <h3>Blockchain</h3>
-                        </div>
-                    </div>
-                    <div className="data">
-                        <div className="content">
-                            <span className="author">TimothieMT</span>
-                            <h2 className="title"><a href="https://blockchain-crypto-7mgky75i6-timothiemt.vercel.app/"
-                                                     target='_blank'>Blockchain Data</a></h2>
-                            <article className="text"> Bearbeitung von großen Datenmengen, um diese strukturiert wiederzugeben. Für interne Präsentationen oder für den Endkunden. </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="work3 card">
-                <div className="wrapper3">
-                    <div className="header">
-                        <div className="date">
-                            <h3>Sicherheit & SEO</h3>
-                        </div>
-                    </div>
-                    <div className="data">
-                        <div className="content">
-                            <span className="author">TimothieMT</span>
-                            <h2 className="title"><a href="https://github.com/TimothieMT" target='_blank'>Internet
-                                Sicherheit und SEO</a></h2>
-                            <article className="text"> Die Sichtbarkeit Ihrer Unternehmenswebsite und ihrer Inhalte für Benutzer einer Websuchmaschine zu erhöhen </article>
-                        </div>
-                    </div>
-                </div>
+            <div className="grid-container">
+                {cards.map((card, index) => (
+                    <Card key={index} title={card.title} text={card.text}/>
+                ))}
             </div>
 
         </div>
