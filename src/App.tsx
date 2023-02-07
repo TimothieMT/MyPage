@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import * as React from "react";
 import Home from "./components/Home";
 import Work from "./components/Work";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <Navbar/>
                 <Home/>
                 <Work/>
+                <Footer/>
 
             </div>
         </div>

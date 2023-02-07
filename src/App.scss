@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 // Variables
 $regal-blue: #034378;
-$san-juan: #2d4e68;
+$san-juan: rgb(45, 78, 104);
 $bermuda: #77d7b9;
 $white: #fff;
 $black: #000;
@@ -58,8 +58,13 @@ sans-serif;
       margin: 30px 0 0 0;
       border: 1px solid $san-juan;
 
+      a{
+        text-decoration: none;
+        color: white;
+      }
+
       &:hover {
-        color: #00cae9;
+        background-color: rgba(45, 78, 104, 0.49);
       }
     }
 
@@ -115,7 +120,7 @@ sans-serif;
       font-weight: 400;
       flex-wrap: wrap;
       justify-content: flex-end;
-      padding: 40px 20px 0 20px;
+      padding: 40px 20px 30px 20px;
 
       p {
         margin: 20px 0 0 0;

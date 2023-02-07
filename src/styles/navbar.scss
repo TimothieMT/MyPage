@@ -71,6 +71,9 @@ nav {
   }
   .callUsButton {
     display: none;
+   a{
+    text-decoration: none;
+   }
   }
 
   .center h1 {
@@ -112,6 +115,13 @@ nav {
   color: $white;
   font-size: 23px;
   font-weight: 300;
+  a{
+    text-decoration: none;
+    color: $white;
+  }
+  &:hover {
+    background-color: rgba(45, 78, 104, 0.49);
+  }
 }
 
 .icon {
