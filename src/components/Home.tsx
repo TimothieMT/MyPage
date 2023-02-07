@@ -8,7 +8,7 @@ function Home() {
 
         <div className={'Startseite'}>
             <div className='wrapperHead'>
-                <img className={'bgImage'} src={'../public/images/bg.jpg'} alt={''}/>
+                <img className={'bgImage'} src={'images/bg.jpg'} alt={''}/>
                 <div className={'wrapperHeadContent'}>
                     <h1 className='headTitle'>Web-Entwicklung in Berlin</h1>
                     <h2 className='title'>Ich bin ein Entwickler aus Berlin. Ich biete

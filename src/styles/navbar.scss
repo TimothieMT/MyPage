@@ -6,147 +6,147 @@ $black: #000;
 $open-sans: 'Open Sans',
 sans-serif;
 
-.App{
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: white;
-  height: 100px;
-}
+.App {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    height: 100px;
+  }
 
-.left {
-  display: flex;
-  align-items: center;
-}
+  .left {
+    display: flex;
+    align-items: center;
+  }
 
-.icon {
-  font-size: 20px;
-}
-
-.center h1 {
-  margin: 0;
-}
-
-.right {
-  display: flex;
-  align-items: center;
-}
-
-.sandwich-button {
-  display: none;
-  border: none;
-  background-color: transparent;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-    z-index: 1;
-}
-
-.menu li {
-  margin: 15px 10px;
-  a{
-    text-decoration: none;
-    color: black;
+  .icon {
     font-size: 20px;
+  }
+
+  .center h1 {
+    margin: 0;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  .sandwich-button {
+    display: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .menu li {
+    margin: 15px 10px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-weight: 300;
+
+      &:hover {
+        color: grey;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .sandwich-button {
+      display: block;
+      cursor: pointer;
+    }
+    .callUsButton {
+      display: none;
+
+      a {
+        text-decoration: none;
+      }
+
+    }
+
+    .center h1 {
+      display: none;
+    }
+
+    .menu {
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+      margin: 100px;
+    }
+
+  }
+
+  .line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
+  }
+
+  .callUsButton {
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background-color: $san-juan;
+    color: $white;
+    font-size: 23px;
     font-weight: 300;
+
+    a {
+      text-decoration: none;
+      color: $white;
+    }
+
+    &:hover {
+      background-color: rgba(45, 78, 104, 0.49);
+    }
+
+  }
+
+  .icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 8px;
+    color: black;
+    text-decoration: none;
+
     &:hover {
       color: grey;
     }
   }
-}
 
-@media (max-width: 767px) {
-  .sandwich-button {
-    display: block;
-    cursor: pointer;
-  }
-  .callUsButton {
-    display: none;
-
-   a{
+  .logoTitle {
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
     text-decoration: none;
-   }
-
+    margin: 0 0 0 10px;
   }
-
-  .center h1 {
-    display: none;
-  }
-
-  .menu {
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    right: 0;
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
-    margin: 100px;
-  }
-
-  .menu.active {
-
-  }
-}
-
-.line {
-  display: block;
-  width: 20px;
-  height: 2px;
-  background-color: black;
-  margin: 4px 0;
-}
-
-.callUsButton {
-  height: 40px;
-  width: 180px;
-  border-radius: 5px;
-  border: none;
-  background-color: $san-juan;
-  color: $white;
-  font-size: 23px;
-  font-weight: 300;
-
-  a{
-    text-decoration: none;
-    color: $white;
-  }
-  &:hover {
-    background-color: rgba(45, 78, 104, 0.49);
-  }
-
-}
-
-.icon {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin: 8px;
-  color: black;
-  text-decoration: none;
-
-  &:hover {
-    color: grey;
-  }
-}
-
-.logoTitle {
-  font-size: 26px;
-  font-weight: 500;
-  color: black;
-  text-decoration: none;
-  margin: 0 0 0 10px;
-}
 }
 
