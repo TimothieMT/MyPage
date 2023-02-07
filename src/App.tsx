@@ -1,5 +1,5 @@
 import './App.scss'
-import './styles/Navbar.scss'
+import './styles/navbar.scss'
 import Navbar from "./components/Navbar";
 import * as React from "react";
 import Home from "./components/Home";
