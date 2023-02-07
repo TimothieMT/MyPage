@@ -2,10 +2,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3rem 0 5rem 0;
-  padding: 1em;
+
+  height: auto;
+  width: 100%;
   border: 1px solid #ccc;
-  border-radius: 5px;
+
 
   &-title {
     font-size: 1.5em;
@@ -21,7 +22,86 @@
 
 .grid-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+
 }
+
+@media (max-width: 767px) {
+     .grid-container {
+        flex-direction: column;
+    }
+}
+
+.card0 {
+  background-image: url("../public/images/sweetstack.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+}
+
+.card1 {
+  background-image: url("../public/images/blockchain.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+}
+
+.card2 {
+  background-image: url("../public/images/SEO.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: auto;
+}
+
+.cardWrapper0{
+  margin: 20px 20px 0 0;
+}
+
+.cardWrapper1{
+  margin: 20px 20px 0 0;
+}
+
+.cardWrapper2{
+  margin: 20px 0 0 0;
+}
+
+.cardTitle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cardText{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cardButton{
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #2d4e68;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 20px;
+  float: right;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  &:hover {
+    background-color: rgba(45, 78, 104, 0.49);
+  }
+}
+

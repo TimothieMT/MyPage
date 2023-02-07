@@ -1,0 +1,41 @@
+
+.footerWrapper{
+  background-color: #2d4e68;
+  height: 200px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+
+.iconFooter  {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  font-size: 28px;
+
+  &:hover {
+    color: grey;
+  }
+}
+
+@media (max-width: 767px) {
+  .footerWrapper{
+    flex-direction: column;
+  }
+}
+
+.homeMarker{
+  color: white;
+}
+
+.footerText{
+  color: white;
+}
