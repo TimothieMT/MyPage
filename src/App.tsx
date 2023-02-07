@@ -1,4 +1,7 @@
 import './App.scss'
+import './styles/navbar.scss'
+import './styles/card.scss'
+import './styles/footer.scss'
 import Navbar from "./components/Navbar";
 import * as React from "react";
 import Home from "./components/Home";
