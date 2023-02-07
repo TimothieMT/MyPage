@@ -6,11 +6,6 @@ import {FaNpm, FaXingSquare} from "react-icons/all";
 
 function Navbar() {
 
-
-
-
-    const [menuOpen, setMenuOpen] = useState(false);
-
     return (
         <>
             <nav>
