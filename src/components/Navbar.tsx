@@ -20,7 +20,7 @@ function Navbar() {
 
                 </div>
                 <div className="center">
-                    <p className={'logoTitle'}>testtest</p>
+                    <p className={'logoTitle'}>TimothieDev</p>
                 </div>
                 <div className="right">
 
