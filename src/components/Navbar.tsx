@@ -7,6 +7,10 @@ import {FaNpm, FaXingSquare} from "react-icons/all";
 function Navbar() {
 
 
+
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <>
             <nav>
@@ -18,6 +22,7 @@ function Navbar() {
                        target={'_blank'}><FaXingSquare/></a>
                     <a className='icon' href='https://www.npmjs.com/package/sweetstack?activeTab=readme'
                        target={'_blank'}><FaNpm/></a>
+
                 </div>
                 <div className="center">
                     <p className={'logoTitle'}>TimothieDev</p>
@@ -27,6 +32,7 @@ function Navbar() {
                     <button className={'callUsButton'}><a href='mailto:ttolk89@gmail.com?subject' target={'_blank'}>Kontaktiere Mich</a></button>
 
                 </div>
+
 
             </nav>
 

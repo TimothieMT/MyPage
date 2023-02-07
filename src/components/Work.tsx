@@ -3,6 +3,7 @@ import * as React from "react";
 import Card from "./Card";
 
 
+
 function Work() {
 
     const cards = [
@@ -37,6 +38,7 @@ function Work() {
                         <p className={`cardText`}>{card.text}</p>
                         <button className={`cardButton`}><a href={card.url} target={'_blank'}>Mehr Erfahren</a></button>
                     </div>
+
                 ))}
             </div>
 

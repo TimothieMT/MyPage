@@ -8,9 +8,8 @@ interface ICards {
 const Card = (props: ICards) => {
 
     return (
-        <div className={`card-container ${props.className}`}>
-
-        </div>
+    
+        <div className={`card-container ${props.className}`}></div>
     );
 }
 

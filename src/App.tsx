@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 
 
+
 function App() {
 
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Home/>
                 <Work/>
                 <Footer/>
+
 
             </div>
         </div>
