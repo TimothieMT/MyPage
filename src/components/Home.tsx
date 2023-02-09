@@ -5,7 +5,6 @@ import * as React from "react";
 function Home() {
 
     return (
-
         <div className={'Startseite'}>
             <div className='wrapperHead'>
                 <img className={'bgImage'} src={'images/bg.jpg'} alt={''}/>

@@ -7,6 +7,7 @@ import * as React from "react";
 import Home from "./components/Home";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
+import MapBox from "./components/MapBox";
 
 
 
@@ -19,6 +20,7 @@ function App() {
                 <Navbar/>
                 <Home/>
                 <Work/>
+                <MapBox/>
                 <Footer/>
 
 
