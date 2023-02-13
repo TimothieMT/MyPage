@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 import MapBox from "./components/MapBox";
+import Skills from "./components/Skills";
 
 
 
@@ -19,6 +20,7 @@ function App() {
 
                 <Navbar/>
                 <Home/>
+                <Skills/>
                 <Work/>
                 <MapBox/>
                 <Footer/>

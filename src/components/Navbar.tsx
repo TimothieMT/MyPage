@@ -24,7 +24,7 @@ function Navbar() {
                 </div>
                 <div className="right">
 
-                    <button className={'callUsButton'}><a href='mailto:ttolk89@gmail.com?subject' target={'_blank'}>Kontaktiere Mich</a></button>
+                    <button data-cy="contactButton" className={'callUsButton'}><a href='mailto:ttolk89@gmail.com?subject' target={'_blank'}>Kontaktiere Mich</a></button>
 
                 </div>
 

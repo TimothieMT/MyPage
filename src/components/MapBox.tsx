@@ -1,6 +1,7 @@
 import React, {useEffect, useRef} from 'react';
 import mapboxgl from 'mapbox-gl';
 import '../App.scss'
+import '../styles/mapBox.scss'
 
 function MapBox() {
     const mapContainerRef = useRef<any>();
@@ -26,7 +27,8 @@ function MapBox() {
     }, []);
 
     return (
-        <div>
+        <div className={'mapBoxWrapper'}>
+            <p>Location</p>
             <div ref={mapContainerRef} style={{height: '400px', width: '100%'}}/>
         </div>
     )
